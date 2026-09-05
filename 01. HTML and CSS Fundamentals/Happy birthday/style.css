@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 400;
+  background-color: #a2d2ff;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+h1,
+p {
+  padding: 10px;
+}
+
+.gift-image {
+  margin: 0 auto;
+
+  background-image: url("birthdayCard.png");
+  background-size: cover;
+  width: 450px;
+  height: 600px;
+
+  border: solid white 5px;
+  transition: all ease 0.3s;
+}
+
+#gift-image-batman:hover {
+  background-image: url("batman.jpg");
+  transition: ease 0.3s;
+}

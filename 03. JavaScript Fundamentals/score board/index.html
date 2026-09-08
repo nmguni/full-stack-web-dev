@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Score Board</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+   <div class="scoreboard">
+
+      <div class="home">
+         <h1 class="board-title">home</h1>
+         <div id="homeScore" class="score">0</div>
+         <div class="btns">
+            <button id="increaseScoreOne" class="btn">+1</button>
+            <button id="increaseScoreTwo" class="btn">+2</button>
+            <button id="increaseScoreThree" class="btn">+3</button>
+         </div>
+      </div>
+
+      <div class="guest">
+         <h1 class="board-title">guest</h1>
+         <div id="guestScore" class="score">0</div>
+         <div class="btns">
+            <button id="increaseScoreOneGuest" class="btn">+1</button>
+            <button id="increaseScoreTwoGuest" class="btn">+2</button>
+            <button id="increaseScoreThreeGuest" class="btn">+3</button>
+         </div>
+      </div>
+
+      <button id="reSetScore">Reset Score</button>
+   </div>
+
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>

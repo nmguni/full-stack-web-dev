@@ -12,6 +12,10 @@ const guestScore = document.getElementById("guestScore")
 const homeScore = document.getElementById("homeScore")
 
 
+const home = document.querySelectorAll("button")
+
+
+
 
 
 

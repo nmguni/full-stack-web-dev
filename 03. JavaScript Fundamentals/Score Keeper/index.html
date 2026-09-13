@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Score Keeper</title>
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+
+
+
+   <div class="score-keeper">
+
+      <img class="image" src="./image/ping-pong.png" alt="">
+
+      <p class="title">Ping Pong Score Keeper</p>
+
+      <div class="total-score-section">
+         <p id="player-two-Score">2</p>
+         <p class="to">to </p>
+         <p id="player-two-Score">1</p>
+      </div>
+      <p class="btns-below">use the buttons below to keep score</p>
+
+      <div class="play-to">
+         <label for="quantity">Playing To:</label>
+         <select id="quantity" name="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+         </select>
+      </div>
+
+
+
+
+      <div class="btn-container">
+         <button id="player-one">+1 Player One</button>
+         <button id="player-two">+1 Player Two</button>
+         <button id="reset">Reset</button>
+      </div>
+
+   </div>
+
+
+
+
+   <script src="./script.js"></script>
+</body>
+
+</html>
